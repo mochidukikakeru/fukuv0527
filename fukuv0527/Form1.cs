@@ -19,22 +19,27 @@ namespace fukuv0527
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Top = label1.Top - 1;
+            label1.Top = label1.Top - 10;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Left = label1.Left + 1;
+            label1.Left = label1.Left + 10;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Left = label1.Left - 1;
+            label1.Left = label1.Left - 10;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            label1.Top = label1.Top + 1;
+            label1.Top = label1.Top + 10;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
